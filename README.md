@@ -22,9 +22,9 @@ git clone https://github.com/mlhenderson/AEW_Energetics
 ```bash
 module load python
 # using a GPU environment (Perlmutter)
-conda create env -n wrf_eke -f env/gpu_dependencies.yml
+conda env create -n wrf_eke -f env/gpu_dependencies.yml
 # OR using a CPU only environment (Cori)
-conda create env -n wrf_eke -f env/cpu_dependencies.yml
+conda env create -n wrf_eke -f env/cpu_dependencies.yml
 ```
 
 ##### Activating the conda environment
